@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactMarkdown from "react-markdown";
+import Navbar from "./components/Navbar.js";
+import MainSection from "./components/MainSection.js";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      
+      <div className="p-6">
+        <ReactMarkdown className="text-4xl font-bold text-center mb-4">
+          # Blog on Oblivy: Secure Data Access with Path ORAM and AES Encryption
+        </ReactMarkdown>
+      </div>
+
+      <MainSection />
     </div>
   );
 }
