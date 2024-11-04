@@ -42,7 +42,7 @@ function Card({ blogTitle, author, date, topic, desc, authorImage, blogId }) {
               alt="Author" 
               className="w-10 h-10 rounded-full mr-3" 
             />
-            <ReactMarkdown className="text-sm text-gray-500 italic">
+            <ReactMarkdown className="text-sm text-gray-800 font-bold">
               {author}
             </ReactMarkdown>
           </div>

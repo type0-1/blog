@@ -1,9 +1,12 @@
+// tailwind.config.js
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // This will scan all files in your `src` directory with these extensions
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
