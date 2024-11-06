@@ -3,60 +3,63 @@ export const blogPosts = [
     id: '3',
     title: 'First Steps Into The Functional Specification!',
     author: 'Samson Oloruntola',
-    date: '22/10/2024',
+    date: '5th Nov. 2024',
     topic: '📋 Functional Specification',
     authorImage: require('../images/Samson.jpeg'),
     content: `
-      <h2>Project Overview</h2>
-      <p>The project proposal is done, and now we begin diving into the functional specification. It’s an exciting part of the project where we outline exactly what our software needs to do.</p>
-      <h3>Key Sections in the Functional Specification:</h3>
-      <ul>
-        <li><strong>Objectives</strong>: Defining the goals of the project.</li>
-        <li><strong>Features</strong>: Listing all the features that need to be implemented.</li>
-        <li><strong>Constraints</strong>: Identifying any limitations or constraints.</li>
-      </ul>
-      <p>We’ve already laid the groundwork, and I’m excited to begin the planning phase in more detail.</p>
+      <h2>Starting The Functional Spec</h2>
+<p>With the proposal behind us, we’re now fully immersed in developing the functional specification for Oblivy. This stage is where we bring structure to our ideas, diving into the details of what the software should do and how everything will fit together.</p>
+
+<ul>
+  <li><strong>Standalone Simulation:</strong> Oblivy, as a standalone simulation project brought about a major consideration, which is whether to allow users the option to input custom data for personalized visualizations or to keep it straightforward with predefined choices. This decision will impact both user experience and system complexity, so we’re carefully weighing the pros and cons.</li>
+  
+  <li><strong>System Interactions:</strong> To ensure clarity, we’re developing a block diagram to show how different parts of the system interact. Even though Oblivy operates independently, a visual overview of its architecture helps us map out each component’s role and connections, keeping the design organized as we move forward.</li>
+  
+  <li><strong>Constraints and Limitations:</strong> We’re also considering potential constraints that could shape the project. Factors like data handling limitations or technical requirements may influence user interactions and the system's overall functionality.</li>
+</ul>
     `
   },
   {
     id: '2',
     title: 'Submitting The Proposal: Race Against Time',
     author: 'Samson Oloruntola',
-    date: '14/10/2024',
+    date: '14th Oct. 2024',
     topic: '📄 Project Proposal',
     authorImage: require('../images/Samson.jpeg'),
     content: `
       <h2>Proposal Summary</h2>
-      <p>Submitting the project proposal felt like a race against time, but it’s done! The process of deciding on the project and formulating the proposal took longer than expected.</p>
-      
-      <h3>Lessons Learned:</h3>
+      <p>Submitting the proposal felt like a race against time, but we finally got it done! Choosing our project, Oblivy, took some serious brainstorming. We wanted to build something impactful, and the idea of creating a privacy-preserving data access system using Path ORAM really resonated with us.
+
+      <h3>What Went Into the Proposal:</h3>
       <ul>
-        <li><strong>Time Management</strong>: Managing time better for future deliverables is key.</li>
-        <li><strong>Planning</strong>: More time should have been set aside for the planning phase.</li>
+        <li><strong>Defining Oblivy’s Goals:</strong> We started by outlining the main objectives of Oblivy. Our focus was clear: secure data access that keeps sensitive information safe from being inferred through access patterns.</li>
+        <li><strong>Choosing the Right Tech Stack:</strong> After careful consideration, we decided on a tech stack that could handle both functionality and visualization. Python and Flask would drive the backend, React for a smooth frontend experience, and D3.js to visualize the Path ORAM protocol in action. This combination gives us the flexibility we need to show how secure data access can be achieved.</li>
       </ul>
-      
-      <p>Now that the proposal is submitted, we can shift focus to preparing the functional specification and get started on the actual development.</p>
+
+      <p>With the proposal now submitted, we’re shifting gears toward the next steps: crafting the functional specs. Exciting times ahead as Oblivy starts to take shape!</p>
+
     `
   },
   {
     id: '1',
     title: 'Trying To Plan The Project',
     author: 'Marjia Siddik',
-    date: '08/10/2024',
+    date: '8th Oct. 2024',
     topic: '📄 Project Proposal',
     authorImage: require('../images/Marjia.jpeg'),
     content: `
-      <h2>Planning the Project</h2>
-      <p>Who knew that deciding on a project idea would be so difficult? After a lot of brainstorming, we’ve finally locked in our project, and now it’s time to plan!</p>
-      
-      <h3>Steps to Plan:</h3>
+    <h2>Planning the Project</h2>
+    <p>Who knew picking a project idea could be such a journey? We started by exploring different ideas from our supervisors and digging through past projects focused on AI ethics and data protection. After some back-and-forth, we landed on “Oblivy.” It’s a project all about protecting privacy with Path ORAM, tackling issues like access pattern leakage—super relevant for sensitive areas like healthcare.</p>
+
+      <h3>How We’re Tackling It:</h3>
       <ol>
-        <li>Break down the project into manageable pieces.</li>
-        <li>Set realistic deadlines for each task.</li>
-        <li>Ensure team alignment and clear communication.</li>
+        <li><strong>Breaking It Down:</strong> We split the project into key areas: implementing the ORAM protocol, setting up encryption, and creating visuals. This way, each piece gets the attention it needs.</li>
+        <li><strong>Setting Deadlines That Make Sense:</strong> We lined up tasks based on their complexity. We’re diving into the heavy backend work first, saving the fun visuals for later once the foundation is set.</li>
+        <li><strong>Staying in Sync:</strong> Regular check-ins are keeping us on track. We each have our own areas to focus on, with some shared tasks like setting up the datasets and testing to bring it all together smoothly.</li>
       </ol>
-      
-      <p>The next phase is really where the work begins. I’m looking forward to tackling this head-on!</p>
+
+    <p>Now, we’re ready to jump into building this thing! Each step gets us closer to our goal—a solid, privacy-centered system that really showcases what Path ORAM can do.</p>
+
     `
   },
 ];

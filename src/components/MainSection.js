@@ -11,7 +11,7 @@ const cardData = [
   {
     blogTitle: "First Steps Into The Functional Specification!",
     author: "Samson Oloruntola",
-    date: "22/10/2024",
+    date: "5th Nov. 2024",
     topic: "📋 Functional Specification",
     desc: "Project proposal is done and dusted, time to dive into the real challenge",
     authorImage: samsonImage,
@@ -20,7 +20,7 @@ const cardData = [
   {
     blogTitle: "Submitting The Proposal: Race Against Time",
     author: "Samson Oloruntola",
-    date: "14/10/2024",
+    date: "14th Oct. 2024",
     topic: "📄 Project Proposal",
     desc: "Idea locked in, now to tackle the project proposal!",
     authorImage: samsonImage,
@@ -29,7 +29,7 @@ const cardData = [
   {
     blogTitle: "Trying To Plan The Project",
     author: "Marjia Siddik",
-    date: "08/10/2024",
+    date: "8th Oct. 2024",
     topic: "📄 Project Proposal",
     desc: "Who knew choosing a project idea would be this tough?",
     authorImage: marjiaImage,
