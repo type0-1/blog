@@ -9,6 +9,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
+    blogTitle: "Working on Section 2 of the Functional Specification",
+    author: "Marjia Siddik",
+    date: "6th Nov. 2024",
+    topic: "📋 Functional Specification",
+    desc: "The functional spec isn't all sunshine and rainbows",
+    authorImage: marjiaImage,
+    blogId: 4,
+  },
+  {
     blogTitle: "First Steps Into The Functional Specification!",
     author: "Samson Oloruntola",
     date: "5th Nov. 2024",

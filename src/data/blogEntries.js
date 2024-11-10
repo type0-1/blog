@@ -1,5 +1,25 @@
 export const blogPosts = [
   {
+    id: '4',
+    title: 'Working on Section 2 of the Functional Specification',
+    author: 'Marjia Siddik',
+    date: '6th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Working on Section 2 of the Functional Spec</h2>
+<p>As we develop Oblivy, we are focused on building a comprehensive functional specification. This includes the creation of a block diagram, analyzing similar software and products, and detailing section 2.1 of the functional specification, which defines the product perspective.</p>
+
+<ul>
+  <li><strong>Creation of the Block Diagram:</strong> We’re designing a block diagram to visually map out Oblivy’s system architecture and the interactions between components. This diagram will provide a clear view of how different parts of the software work together, ensuring a well-organized design as we proceed.</li>
+
+  <li><strong>Competitor and Product Analysis:</strong> To refine our design and align with industry standards, we’re researching similar software products. This analysis will help us identify best practices, gain insights into user expectations, and ensure Oblivy meets a high standard of usability and functionality.</li>
+
+  <li><strong>Functional Specification (Product Perspective):</strong> Section 2.1 of the functional specification outlines the product perspective, defining Oblivy’s purpose and target audience. By clarifying the product’s role as a standalone simulation tool, we’re setting a foundation for development and feature prioritization to meet user needs effectively.</li>
+</ul>`
+
+  },
+  {
     id: '3',
     title: 'First Steps Into The Functional Specification!',
     author: 'Samson Oloruntola',
