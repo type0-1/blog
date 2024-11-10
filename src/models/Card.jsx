@@ -39,7 +39,7 @@ function Card({ blogTitle, author, date, topic, desc, authorImage, blogId, index
       className="relative bg-white shadow-lg rounded-lg w-full mx-auto my-6 border border-gray-200 flex flex-col md:h-[265px] sm:h-[300px] hover:shadow-xl transition-shadow duration-300"
     >
       {/* Color banner */}
-      <div className="h-2 w-full bg-[#F25900] rounded-t-lg"></div>
+      <div className="h-1 w-full bg-[#F25900] rounded-t-lg"></div>
       
       <div className="p-6 flex flex-col h-full">
         <div className="flex justify-between items-center mb-2">
