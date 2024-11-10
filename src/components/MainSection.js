@@ -9,6 +9,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
+    blogTitle: "Continuing on with Section 2 of the Functional Specification",
+    author: "Marjia Siddik",
+    date: "7th Nov. 2024",
+    topic: "📋 Functional Specification",
+    desc: "Getting into the nitty gritty with oblivy :D",
+    authorImage: marjiaImage,
+    blogId: 5,
+  },
+  {
     blogTitle: "Working on Section 2 of the Functional Specification",
     author: "Marjia Siddik",
     date: "6th Nov. 2024",
