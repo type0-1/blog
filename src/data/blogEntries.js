@@ -35,7 +35,7 @@ export const blogPosts = [
 
   <li><strong>Competitor and Product Analysis:</strong> To refine our design and align with industry standards, we’re researching similar software products. This analysis will help us identify best practices, gain insights into user expectations, and ensure Oblivy meets a high standard of usability and functionality.</li>
 
-  <li><strong>Functional Specification (Product Perspective):</strong> Section 2.1 of the functional specification outlines the product perspective, defining Oblivy’s purpose and target audience. By clarifying the product’s role as a standalone simulation tool, we’re setting a foundation for development and feature prioritization to meet user needs effectively.</li>
+  <li><strong>Functional Specification (Product Perspective):</strong> Section 2.1 of the functional specification outlines the product perspective, defining Oblivy’s purpose and target audience. By clarifying the product’s role as a standalone simulation tool, we’re setting a foundation for development and feature prioritisation to meet user needs effectively.</li>
 </ul>`
 
   },
