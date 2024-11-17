@@ -23,7 +23,7 @@ export const blogPosts = [
     author: 'Marjia Siddik',
     date: '14th Nov. 2024',
     topic: '📋 Functional Specification',
-    authorImage: require('../images/Samson.jpeg'),
+    authorImage: require('../images/Marjia.jpeg'),
     content: `
       <h2>Performance Metrics, Database Needs, and Design Standards</h2>
 <p>Outlined specific performance expectations, database structure, and design standards to support Oblivy's functionality and user experience goals:</p>
@@ -41,7 +41,7 @@ export const blogPosts = [
     author: 'Marjia Siddik',
     date: '13th Nov. 2024',
     topic: '📋 Functional Specification',
-    authorImage: require('../images/Samson.jpeg'),
+    authorImage: require('../images/Marjia.jpeg'),
     content: `
       <h2>External Interfaces and Core System Functions</h2>
 <p>We've pinpointed the key external interfaces and primary system functions necessary for Oblivy’s seamless operation and user interaction:</p>
