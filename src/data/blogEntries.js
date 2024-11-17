@@ -13,7 +13,7 @@ export const blogPosts = [
 <ul>
     <li><strong>Defining Software System Attributes:</strong> Specified key attributes including reliability, availability, security, and maintainability to ensure Oblivy meets performance and operational standards throughout its lifecycle.</li> 
     <li><strong>Organizing Specific Requirements:</strong> Structured Oblivy’s requirements by system elements like system mode, user class, and functional hierarchy to enhance readability and support a streamlined development process.</li> 
-    <li><strong>Establishing Requirement Categories:</strong> Used categories like objects, features, stimuli, and responses to clarify each requirement’s purpose and relationships, ensuring developers have a clear and detailed blueprint for implementation.</li>
+    <li><strong>Establishing Requirement Categories:</strong> Used categories like objects, and features (while clarifying why we didn't use others like stimulus and responses) to clarify each requirement’s purpose and relationships, ensuring developers have a clear and detailed blueprint for implementation.</li>
 </ul>`
 
   },
