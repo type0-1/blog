@@ -103,7 +103,7 @@ export const blogPosts = [
 <ul>
   <li><strong>Identifying System & Software Interfaces:</strong> We’re mapping out the necessary interfaces within Oblivy to ensure smooth interactions between different system components. This involves pinpointing all points of interaction to make sure each element communicates effectively and efficiently.</li>
 
-  <li><strong>Re-evaluating the Block Diagram:</strong> Given concerns about the diagram's complexity, we’re revisiting our initial design to simplify and clarify the layout. This will help keep the architecture transparent, making it easier for the development team to follow and maintain.</li>
+  <li><strong>Re-evaluating the Block Diagram:</strong> Given concerns about the diagram's complexity, we’re revisiting our initial design to simplify and clarify the layout. This will help keep the architecture transparent, making it easier for the development team to maintain.</li>
 
   <li><strong>Defining Interface Requirements & Optimizations:</strong> To make Oblivy as user-friendly as possible, we’re defining clear interface requirements and optimizing each for usability. These refinements will help ensure that the system is intuitive, reducing learning time for users and improving overall accessibility.</li>
 </ul>`
