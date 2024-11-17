@@ -1,5 +1,95 @@
 export const blogPosts = [
   {
+    id: '10',
+    title: 'Defining Software Attributes and Organizing Specific Requirements for Oblivy',
+    author: 'Samson Oloruntola',
+    date: '15th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Software Attributes and Organizing Specific Requirements</h2>
+<p>Outlined core software attributes and established an organized structure for Oblivy’s requirements documentation:</p>
+
+<ul>
+    <li><strong>Defining Software System Attributes:</strong> Specified key attributes including reliability, availability, security, and maintainability to ensure Oblivy meets performance and operational standards throughout its lifecycle.</li> 
+    <li><strong>Organizing Specific Requirements:</strong> Structured Oblivy’s requirements by system elements like system mode, user class, and functional hierarchy to enhance readability and support a streamlined development process.</li> 
+    <li><strong>Establishing Requirement Categories:</strong> Used categories like objects, features, stimuli, and responses to clarify each requirement’s purpose and relationships, ensuring developers have a clear and detailed blueprint for implementation.</li>
+</ul>`
+
+  },
+  {
+    id: '9',
+    title: 'Setting Performance Metrics, Database Needs, and Design Standards for Oblivy',
+    author: 'Marjia Siddik',
+    date: '14th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Performance Metrics, Database Needs, and Design Standards</h2>
+<p>Outlined specific performance expectations, database structure, and design standards to support Oblivy's functionality and user experience goals:</p>
+
+<ul>
+    <li><strong>Establishing Performance Benchmarks:</strong> Defined both static and dynamic performance requirements to ensure Oblivy operates efficiently, meeting responsiveness and processing targets during peak simulation loads.</li> 
+    <li><strong>Logical Database Structure:</strong> Detailed the structure and access protocols for Oblivy's internal database to manage data blocks, paths, and metrics while supporting real-time simulation needs.</li> 
+    <li><strong>Design Constraints and Standards Compliance:</strong> Set clear design limitations and aligned with relevant standards, such as accessibility and security, to ensure Oblivy is both robust and compatible across user environments.</li>
+</ul>`
+
+  },
+  {
+    id: '8',
+    title: 'Establishing External Interfaces and Core System Functions for Oblivy',
+    author: 'Marjia Siddik',
+    date: '13th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>External Interfaces and Core System Functions</h2>
+<p>We've pinpointed the key external interfaces and primary system functions necessary for Oblivy’s seamless operation and user interaction:</p>
+
+<ul>
+  <li><strong>Defining External System Interfaces:</strong> We outlined necessary connections and integrations, ensuring Oblivy’s internal components work cohesively without relying on external systems.</li> 
+  <li><strong>Detailing Core System Functions:</strong> Key functions like data retrieval, visualization, and real-time metric updates were mapped out to ensure each element supports the Path ORAM simulation effectively.</li> 
+  <li><strong>Structuring Functional Requirements for Clarity:</strong> Organized each function’s specific requirements to streamline the development process, making it easier to implement and test each feature accurately.</li>
+</ul>`
+
+  },
+  {
+    id: '7',
+    title: 'Defining Core Aspects of Development',
+    author: 'Samson Oloruntola',
+    date: '12th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Core Aspects of Developement for Oblivy</h2>
+<p>To ensure a well-rounded approach to Oblivy's design and functionality, we clarified key areas that impact the project's scope and requirements:</p>
+
+<ul>
+  <li><strong>Outlining Product Functions:</strong> We specified Oblivy’s essential functions, focusing on the interactive Path ORAM simulation, data visualization, and performance metrics to deliver a valuable educational tool.</li> 
+  <li><strong>Understanding User Characteristics:</strong> We analyzed our intended user base—students, researchers, and privacy enthusiasts—to design an interface that balances technical depth with accessibility.</li> 
+  <li><strong>Clarifying Assumptions and Dependencies:</strong> Documented assumptions around supported web technologies and user devices to guide development, ensuring that our requirements align with expected user environments.</li> <li><strong>Apportioning Requirements for Manageability:</strong> We allocated essential features for the initial version while identifying advanced functionalities for potential future iterations, keeping development feasible within project timelines.</li>
+</ul>`
+
+  },
+  {
+    id: '6',
+    title: 'Refining System Requirements and Focusing on Core Essentials',
+    author: 'Samson Oloruntola',
+    date: '10th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Getting into the Requirements and Essentials</h2>
+<p>To streamline Oblivy's requirements and maintain focus on its core educational functions, we refined the document by removing certain non-essential components.</p>
+
+<ul>
+  <li><strong>Excluding the Block Diagram:</strong> We decided to remove the block diagram to keep our visuals clear and focused on only the most relevant elements, ensuring straightforward documentation.</li> 
+  <li><strong>Refining Interface Requirements:</strong> Removed communication interfaces, memory constraints, and site adaptation requirements, as these do not impact Oblivy’s functionality in a standalone, web-based environment.</li> 
+  <li><strong>Streamlining Operational Focus:</strong> By excluding generic operations requirements, we concentrated on Oblivy’s interactive educational features, helping developers stay focused on core functions without unnecessary details.</li>
+</ul>`
+
+  },
+  {
     id: '5',
     title: 'Continuing on with Section 2 of the Functional Specification',
     author: 'Marjia Siddik',
