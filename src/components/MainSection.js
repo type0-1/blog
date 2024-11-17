@@ -58,7 +58,7 @@ const cardData = [
     author: "Marjia Siddik",
     date: "7th Nov. 2024",
     topic: "📋 Functional Specification",
-    desc: "Getting into the nitty gritty with Olivy :D",
+    desc: "Getting into the nitty gritty with Oblivy :D",
     authorImage: marjiaImage,
     blogId: 5,
   },
