@@ -1,5 +1,116 @@
 export const blogPosts = [
   {
+    id: '15',
+    title: 'Finalizing the Functional Specification and Submission',
+    author: 'Marjia Siddik',
+    date: '25th Nov. 2024',
+    topic: '📋 Functional Specification Milestone',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Finalizing the Functional Specification</h2>
+      <p>Today marks a major milestone in the Oblivy project—we finalized our functional specification draft and received the go-ahead from our supervisor! This was a critical step in solidifying our project direction and ensuring alignment with the original goals.</p>
+      
+      <ul>
+        <li><strong>Supervisor Approval:</strong> After several iterations and feedback cycles, our supervisor gave the thumbs up, confirming that the functional specification meets all expectations and covers necessary details.</li>
+        <li><strong>Markdown Submission:</strong> The finalized document was formatted in markdown for easy readability and version control, then submitted to our GitLab repository for future reference and collaboration.</li>
+      </ul>
+      
+      <p>With the functional specification now complete and approved, we’re ready to dive fully into development. This submission marks the end of one phase and the beginning of an exciting journey to bring Oblivy to life!</p>
+    `
+  },  
+  {
+    id: '14',
+    title: 'Mapping and Testing: Preparing Oblivy for Robust Development',
+    author: 'Marjia Siddik',
+    date: '24th Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Mapping and Testing Oblivy</h2>
+      <p>As we progress in the development phase, our focus has shifted to detailed planning and testing to ensure a smooth implementation for Oblivy. Here’s what we accomplished today:</p>
+      
+      <ul>
+        <li><strong>Testing Ideas:</strong> We evaluated various testing approaches to ensure Oblivy’s reliability and performance, including:
+          <ul>
+            <li><strong>Stress Testing:</strong> To see how the system handles extreme conditions.</li>
+            <li><strong>Performance Testing:</strong> To measure speed and responsiveness under typical loads.</li>
+            <li><strong>Unit Testing:</strong> To validate individual components work as intended.</li>
+            <li><strong>Integration Testing:</strong> To ensure seamless interaction between different system modules.</li>
+          </ul>
+        </li>
+        <li><strong>Deployment Diagram:</strong> Detailed how Oblivy will be hosted and its deployment strategy, ensuring clarity in infrastructure planning.</li>
+        <li><strong>Use Case Diagram:</strong> Illustrated how users will interact with Oblivy, from dataset upload to encrypted file retrieval.</li>
+        <li><strong>Data Validation Flowchart:</strong> Mapped out the steps for ensuring input data meets all required criteria.</li>
+        <li><strong>Data Flow Diagram:</strong> Highlighted how information moves through Oblivy’s system, from input to output.</li>
+        <li><strong>System Interaction Sequence Diagram:</strong> Provided a step-by-step view of the interactions between system components during a typical operation.</li>
+        <li><strong>GANTT Chart:</strong> Created a timeline to track tasks and ensure we stay on schedule for delivery.</li>
+      </ul>
+      
+      <p>With these tools in place, we’re confident that Oblivy will meet its functional and performance goals. The diagrams and testing plans ensure a strong foundation for both development and evaluation.</p>
+    `
+  },  
+  {
+    id: '13',
+    title: 'From Lengthy Documents to Clear Diagrams: Redefining the Functional Specification',
+    author: 'Samson Oloruntola',
+    date: '23rd Nov. 2024',
+    topic: '📋 Functional Specification',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Redefining the Functional Specification</h2>
+      <p>We’ve taken the functional specification to the next level, turning it into a concise yet detailed version. This transformation not only streamlines our project documentation but also provides a clearer vision for development. Here’s what we’ve accomplished:</p>
+      
+      <ul>
+        <li><strong>High-Level System Architecture Diagram:</strong> We created a visual representation of how the system’s components will interact, ensuring everyone has a clear understanding of Oblivy’s structure.</li>
+        <li><strong>Data Processing Flowchart:</strong> A step-by-step diagram illustrating how data flows through the system, from upload to encryption and output.</li>
+        <li><strong>UI Mockups:</strong> Designed interface layouts for key pages, including the hero page, metrics dashboard, file feedback, and dataset download pages. These mockups give us a clear direction for frontend development.</li>
+        <li><strong>Deployment Diagram:</strong> Visualized how the system will be deployed, detailing server configurations and hosting requirements.</li>
+      </ul>
+      
+      <p>With these diagrams and mockups, we’ve replaced lengthy text with visuals that communicate our system’s design more effectively. This shift not only helps our team stay aligned but also sets a strong foundation for the implementation phase.</p>
+    `
+  },  
+  {
+    id: '12',
+    title: 'Refining the Functional Specification After Supervisor Feedback',
+    author: 'Samson Oloruntola',
+    date: '21st Nov. 2024',
+    topic: '📋 Functional Specification Update',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Refining the Functional Specification</h2>
+      <p>After our first supervisor meeting, we received valuable feedback on our functional specification. While it was comprehensive, it was also overly detailed and added unnecessary complexity to the project. Simplifying it has not only reduced our workload but has also made our goals more achievable.</p>
+      
+      <ul>
+        <li><strong>Streamlining the Document:</strong> We shortened the specification to focus on the core functionalities of Oblivy, ensuring it’s clear and concise.</li>
+        <li><strong>Focus on Usability:</strong> By cutting down on redundant details, we can now prioritize implementing features that matter most to the end user, such as seamless encryption and intuitive interaction.</li>
+        <li><strong>Efficient Development:</strong> The revised specification aligns better with our timeline, allowing us to allocate resources effectively without compromising on quality.</li>
+      </ul>
+      
+      <p>This adjustment has set a clearer path for the development phase, and we’re confident it will help us deliver a polished and functional version of Oblivy.</p>
+    `
+  },  
+  {
+    id: '11',
+    title: 'Redefining Oblivy: From Visualization Tool to Functional System',
+    author: 'Marjia Siddik',
+    date: '20th Nov. 2024',
+    topic: '🔄 Project Evolution',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Transforming Oblivy into a Functional System</h2>
+      <p>We’ve made a significant pivot in the project’s direction! Initially, Oblivy was planned as a visualization tool to demonstrate the Path ORAM protocol. However, we’ve now reimagined it as a fully functional system that provides real-world utility to users.</p>
+      
+      <ul>
+        <li><strong>User Dataset Upload:</strong> Oblivy’s frontend will now allow users to upload their own datasets, providing a seamless way for users to interact with the system.</li>
+        <li><strong>Encryption Process:</strong> Uploaded datasets will be encrypted using the Path ORAM protocol alongside AES encryption, ensuring both access pattern obfuscation and robust data security.</li>
+        <li><strong>File Return:</strong> After processing, Oblivy will return an encrypted version of the user’s dataset, delivering a tangible output that highlights the system’s functionality.</li>
+      </ul>
+      
+      <p>This change not only increases the practicality of Oblivy but also challenges us to expand our development goals and refine the system’s architecture. We’re excited to see this new direction take shape!</p>
+    `
+  },  
+  {
     id: '10',
     title: 'Defining Software Attributes and Organizing Specific Requirements for Oblivy',
     author: 'Samson Oloruntola',

@@ -9,6 +9,54 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
+    blogTitle: "Finalizing the Functional Specification and Submission",
+    author: "Marjia Siddik",
+    date: "25th Nov. 2024",
+    topic: "📋 Functional Specification Milestone",
+    desc: "Completed and finalized the functional specification draft.",
+    authorImage: marjiaImage,
+    blogId: 15,
+
+  },
+  {
+    blogTitle: "Mapping and Testing: Preparing Oblivy for Robust Development",
+    author: "Marjia Siddik",
+    date: "24th Nov. 2024",
+    topic: "📋 Functional Specification",
+    desc: "Developed more diagrams and evaluated testing approaches.",
+    authorImage: marjiaImage,
+    blogId: 14,
+
+  },
+  {
+    blogTitle: "From Lengthy Documents to Clear Diagrams: Redefining the Functional Specification",
+    author: "Samson Oloruntola",
+    date: "23rd Nov. 2024",
+    topic: "📋 Functional Specification",
+    desc: "Now we're talking. The start of creating diagram and mockups for clarity.",
+    authorImage: samsonImage,
+    blogId: 13,
+
+  },
+  {
+    blogTitle: "Refining the Functional Specification After Supervisor Feedback",
+    author: "Samson Oloruntola",
+    date: "21st Nov. 2024",
+    topic: "📋 Functional Specification Update",
+    desc: "Shortened the functional specification based on supervisor feedback.",
+    authorImage: samsonImage,
+    blogId: 12,
+  },
+  {
+    blogTitle: "Redefining Oblivy: From Visualization Tool to Functional System",
+    author: "Marjia Siddik",
+    date: "20th Nov. 2024",
+    topic: "🔄 Project Evolution",
+    desc: "Transforming Oblivy into a functional system.",
+    authorImage: marjiaImage,
+    blogId: 11,
+  },
+  {
     blogTitle: "Defining Software Attributes and Organizing Specific Requirements for Oblivy",
     author: "Samson Oloruntola",
     date: "15th Nov. 2024",
