@@ -13,7 +13,7 @@ const cardData = [
     author: "Samson Oloruntola",
     date: "5th Jan. 2025",
     topic: "🧪 Testing and Debugging",
-    desc: "Developed unit tests for the Tree class and refined data block structures.",
+    desc: "Developed unit test for the Tree class and refined data block structures.",
     authorImage: samsonImage,
     blogId: 22,
   },

@@ -11,7 +11,7 @@ export const blogPosts = [
       <p>Ensuring the reliability and maintainability of our Path ORAM implementation took center stage as we focused on unit testing and improving data block structures. Here’s a summary of our progress:</p>
 
       <ul>
-        <li><strong>Tree Class Unit Testing:</strong> Developed comprehensive unit tests for the Tree class, verifying that all implemented methods function as expected and identifying potential issues early.</li>
+        <li><strong>Tree Class Unit Testing:</strong> Developed a unit test for the Tree class, verifying that all implemented methods function as expected and identifying potential issues early.</li>
         <li><strong>Data Block Refinements:</strong> Updated the structure of data blocks to simplify debugging and improve clarity for future development and testing phases.</li>
         <li><strong>Preparations for Future Implementations:</strong> These refinements lay the groundwork for upcoming work on encryption and protocol modules, ensuring seamless integration.</li>
       </ul>
