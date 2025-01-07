@@ -9,6 +9,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
+    blogTitle: "Implementing the Encryption Class with AES-256",
+    author: "Marjia Siddik",
+    date: "7th Jan. 2025",
+    topic: "🔒 Encryption Development",
+    desc: "Developed AES-256 encryption methods for encrypting and decrypting data blocks.",
+    authorImage: marjiaImage,
+    blogId: 23,
+  },
+  {
     blogTitle: "Unit Testing for the Tree Class and Data Block Refinements",
     author: "Samson Oloruntola",
     date: "5th Jan. 2025",

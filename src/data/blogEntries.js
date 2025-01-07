@@ -1,5 +1,57 @@
 export const blogPosts = [
   {
+    id: '23',
+    title: 'Implementing the Encryption Class with AES-256',
+    author: 'Marjia Siddik',
+    date: '7th Jan. 2025',
+    topic: '🔒 Encryption Development',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Implementing the Encryption Class with AES-256</h2>
+      <p>Our security measures took a significant leap as we implemented the Encryption class, a vital component of the Oblivy system. This class provides robust encryption and decryption using AES-256. Here’s an overview of the work completed:</p>
+
+      <ul>
+        <li><strong>Encryption Logic:</strong> Developed the Encryption class utilizing <code>Crypto.Cipher</code> for AES-256 and <code>Crypto.Random</code> for generating secure random bytes. The methods include:
+          <ul>
+            <li><code>encrypt</code>: Encrypts data blocks, returning the ciphertext, nonce, and authentication tag.</li>
+            <li><code>decrypt</code>: Decrypts data, verifying integrity with the authentication tag.</li>
+            <li><code>re_encrypt</code>: Re-encrypts a decrypted data block for enhanced security.</li>
+          </ul>
+        </li>
+        <li><strong>Exception Handling:</strong> Added comprehensive exception handling to manage invalid data formats and ensure resilience.</li>
+        <li><strong>Template Unit Test File:</strong> Created a unit test template for the Encryption class to validate its functionality and robustness.</li>
+        <li><strong>Bug Fixes:</strong> Fixed typos and improved code readability to maintain high standards of quality.</li>
+      </ul>
+
+      <p>Here’s a snippet of the implemented Encryption class:</p>
+      <pre>
+      <code>
+      from Crypto.Cipher import AES
+      from Crypto.Random import get_random_bytes
+      import base64
+
+      class Encryption():
+          def __init__(self, key=None):
+              self.key = key if key else get_random_bytes(32)
+          
+          def encrypt(self, data):
+              if not isinstance(data, bytes):
+                  data = data.encode()
+              nonce = get_random_bytes(16)
+              cipher = AES.new(self.key, AES.MODE_GCM, nonce=nonce)
+              ciphertext, tag = cipher.encrypt_and_digest(data)
+              return {
+                  "ciphertext": base64.b64encode(ciphertext).decode(),
+                  "tag": base64.b64encode(tag).decode(),
+                  "nonce": base64.b64encode(nonce).decode()
+              }
+      </code>
+      </pre>
+
+      <p>With these advancements, the Encryption class fortifies the security layer of Oblivy, ensuring data protection and integrity. The next steps will involve rigorous testing and integration into other modules.</p>
+    `
+  },
+  {
     id: '22',
     title: 'Unit Testing for the Tree Class and Data Block Refinements',
     author: 'Samson Oloruntola',
