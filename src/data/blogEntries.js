@@ -1,5 +1,175 @@
 export const blogPosts = [
   {
+    id: '22',
+    title: 'Unit Testing for the Tree Class and Data Block Refinements',
+    author: 'Samson Oloruntola',
+    date: '5th Jan. 2025',
+    topic: '🧪 Testing and Debugging',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Unit Testing for the Tree Class and Data Block Refinements</h2>
+      <p>Ensuring the reliability and maintainability of our Path ORAM implementation took center stage as we focused on unit testing and improving data block structures. Here’s a summary of our progress:</p>
+
+      <ul>
+        <li><strong>Tree Class Unit Testing:</strong> Developed comprehensive unit tests for the Tree class, verifying that all implemented methods function as expected and identifying potential issues early.</li>
+        <li><strong>Data Block Refinements:</strong> Updated the structure of data blocks to simplify debugging and improve clarity for future development and testing phases.</li>
+        <li><strong>Preparations for Future Implementations:</strong> These refinements lay the groundwork for upcoming work on encryption and protocol modules, ensuring seamless integration.</li>
+      </ul>
+
+      <p>With these updates, we’re enhancing both the robustness and scalability of our implementation. Unit tests and streamlined debugging processes will be invaluable as we progress to more complex features.</p>
+    `
+  },
+  {
+    id: '21',
+    title: 'Creating the Homepage Template and Upload Functionality',
+    author: 'Marjia Siddik',
+    date: '4th Jan. 2025',
+    topic: '🎨 UI Development',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Creating the Homepage Template and Upload Functionality</h2>
+      <p>Our UI development took a big step forward as we created a template homepage and tackled core functionality. These updates bring us closer to a polished and interactive user experience. Here’s what we accomplished:</p>
+
+      <ul>
+        <li><strong>Template Homepage:</strong> Designed and implemented the basic structure of the homepage, following the UI mockups for a clean and intuitive layout.</li>
+        <li><strong>Upload Button Functionality:</strong> Added functionality to the “Upload” button, enabling it to open the user’s desktop folder for file selection.</li>
+        <li><strong>Bug Fixes:</strong> Resolved an issue encountered during the initial setup of <a href="https://d3js.org/">D3.js</a> and <a href="https://www.chartjs.org/">Chart.js</a>, ensuring smooth visualization operations.</li>
+      </ul>
+
+      <p>These updates enhance both the visual appeal and interactivity of our project’s interface, setting the stage for further UI development and testing.</p>
+    `
+  },
+
+  {
+    id: '20',
+    title: 'Advancing Tree Logic and Stash Implementation',
+    author: 'Samson Oloruntola',
+    date: '4th Jan. 2025',
+    topic: '🔒 ORAM Feature Development',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Advancing Tree Logic and Stash Implementation</h2>
+      <p>The Path ORAM implementation continues to evolve as we refine its core components and enhance its functionality. Here’s a breakdown of the progress made:</p>
+
+      <ul>
+        <li><strong>Stash Class:</strong> Completed the implementation of the stash class, ensuring efficient data handling for temporarily stored blocks.</li>
+        <li><strong>Tree Logic:</strong> Made significant advancements in the tree structure, focusing on the data structure of blocks stored inside buckets. This improvement lays the groundwork for robust data storage and retrieval.</li>
+        <li><strong>Debugging and Visualization:</strong> Developed a debugging method to visualize the tree, a critical tool for testing and debugging the implementation.</li>
+        <li><strong>Helper Methods:</strong> Implemented a <code>get_path</code> method to assist the <code>read_path</code> functionality, streamlining the block retrieval process.</li>
+        <li><strong>Position Map:</strong> Initialized a position map for assigning requested blocks to random leaves, a key component of the ORAM logic.</li>
+      </ul>
+
+      <p>These developments bring us closer to a fully functional Path ORAM implementation, with a strong focus on efficiency, security, and reliability. The visualization tools and helper methods will prove invaluable in the next stages of testing and refinement.</p>
+    `
+  },
+
+  {
+    id: '19',
+    title: 'Organizing and Expanding Path ORAM Modules',
+    author: 'Samson Oloruntola',
+    date: '3rd Jan. 2025',
+    topic: '🔒 ORAM Module Development',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Organizing and Expanding Path ORAM Modules</h2>
+      <p>The development of Path ORAM took a significant leap forward as we modularized its directory structure and began implementing foundational methods. This step enhances code organization and sets the stage for more sophisticated features. Here’s what we achieved:</p>
+
+      <ul>
+        <li><strong>Module Separation:</strong> Reorganized the Path ORAM structure into distinct modules:
+          <ul>
+            <li><code>protocol.py</code>: Acts as the main file runner, orchestrating the overall functionality.</li>
+            <li><code>encryption.py</code>: Dedicated to AES-256 encryption implementation.</li>
+            <li><code>tree.py</code>: Handles the binary tree structure essential for Path ORAM.</li>
+            <li><code>stash.py</code>: Manages the stash implementation to support secure data operations.</li>
+          </ul>
+        </li>
+        <li><strong>Template Methods:</strong> Added placeholder methods in each module for future functionality and clear development pathways.</li>
+        <li><strong>Tree Module Implementation:</strong> Began work on <code>tree.py</code>, adding methods for:
+          <ul>
+            <li>Adding nodes and edges to the binary tree.</li>
+            <li>Reading and writing paths.</li>
+            <li>Defining a constant for bucket capacity.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>With this reorganization, the Path ORAM directory is now better equipped for future expansions and feature implementations.</p>
+    `
+  },
+  {
+    id: '18',
+    title: 'Building the Path ORAM Directory Structure',
+    author: 'Samson Oloruntola',
+    date: '2nd Jan. 2025',
+    topic: '🔒 ORAM Implementation',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Building the Path ORAM Directory Structure</h2>
+      <p>We’ve taken a crucial step in our Oblivy project by initiating the development of the Path ORAM directory structure. This serves as the backbone for secure data operations within the system. Here’s an overview of what we accomplished:</p>
+
+      <ul>
+        <li><strong>Directory Structure:</strong> Designed and organized the basic framework for the Path ORAM directory structure, setting a foundation for secure data access and storage.</li>
+        <li><strong>Main Runner File:</strong> Created the main runner file, <code>path_oram.py</code>, to handle core operations and future functionalities.</li>
+        <li><strong>Template Methods:</strong> Implemented placeholder methods for essential Path ORAM operations, including <code>insertion</code>, <code>retrieval</code>, <code>reshuffle</code>, and <code>path_retrieval</code>. These will guide the development of robust functionality in subsequent phases.</li>
+      </ul>
+
+      <p>With these steps, we’ve laid the groundwork for implementing Path ORAM in Oblivy, ensuring data security and efficiency in future iterations. Stay tuned for updates as we bring this essential feature to life!</p>
+    `
+  },
+  {
+    id: '17',
+    title: 'Setting Up the Database',
+    author: 'Marjia Siddik',
+    date: '1st Jan. 2025',
+    topic: '💾 Database Integration',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Setting Up the Database</h2>
+      <p>Establishing a solid database foundation is crucial for any project, and that’s exactly what we focused on for Oblivy. With this milestone, we’re ensuring reliable data storage and smooth CRUD operations. Here’s what we achieved:</p>
+
+      <ul>
+        <li><strong>Database Framework:</strong> Implemented the database using <a href="https://www.sqlite.org/">SQLite3</a>, a lightweight yet powerful database solution.</li>
+        <li><strong>Integration with Python Modules:</strong> Integrated SQLite3 with Python to facilitate seamless communication and database operations.</li>
+        <li><strong>CRUD Functionality:</strong> Set up Create, Read, Update, and Delete (CRUD) operations, laying the groundwork for managing user and system data efficiently.</li>
+      </ul>
+
+      <p>This database setup marks another milestone in the Oblivy development journey, ensuring a strong backend that supports our growing application needs. We’re excited to build further upon this foundation!</p>
+    `
+  },
+  {
+    id: '16',
+    title: 'Setting Up the Backend and Frontend',
+    author: 'Samson Oloruntola',
+    date: '31st Dec. 2024',
+    topic: '⚙️ Development Setup',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Setting Up the Backend and Frontend</h2>
+      <p>We've setup the project in order to begin development, here's an overview on what we have done:</p>
+
+      <h3>Frontend Framework and Dependencies</h3>
+      <ul>
+        <li><strong>Framework:</strong> We established the frontend using <a href="https://reactjs.org/">React</a>, ensuring a robust and scalable foundation.</li>
+        <li><strong>Visualization Tools:</strong> Integrated <a href="https://d3js.org/">D3.js</a> and <a href="https://www.chartjs.org/">Chart.js</a> to enable metrics feedback and frontend tree visualization.</li>
+      </ul>
+
+      <h3>Backend Framework and Tools</h3>
+      <ul>
+        <li><strong>Framework:</strong> The backend setup leveraged <a href="https://flask.palletsprojects.com/">Flask</a>, providing flexibility and simplicity for rapid development.</li>
+        <li><strong>Modules:</strong> We incorporated essential modules such as <a href="https://docs.pytest.org/">Pytest</a> for testing, <a href="https://networkx.org/">NetworkX</a> for graph operations, and <a href="https://www.pycryptodome.org/">PyCryptodome</a> for cryptographic functionalities.</li>
+      </ul>
+
+      <h3>Testing Frameworks</h3>
+      <ul>
+        <li><strong>Frontend:</strong> Integrated <a href="https://jestjs.io/">Jest</a> for frontend testing to ensure code reliability and performance.</li>
+        <li><strong>Backend:</strong> Employed Pytest for backend unit tests, fostering high-quality assurance from the start.</li>
+      </ul>
+
+      <p>These steps have equipped us with the necessary tools and frameworks to seamlessly move forward with the development phase, ensuring our codebase is well-structured and ready for future iterations.</p>
+    `
+  },
+
+  {
     id: '15',
     title: 'Finalizing the Functional Specification and Submission',
     author: 'Marjia Siddik',
