@@ -1,5 +1,222 @@
 export const blogPosts = [
   {
+    id: '34',
+    title: 'Server and Frontend File Organization',
+    author: 'Samson Oloruntola',
+    date: '21st Jan. 2025',
+    topic: '⚙️ Development Streamlining',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Server and Frontend File Organization</h2>
+      <p>To streamline development workflows, we added a <code>.gitignore</code> file and organized essential files for running the server, API, and frontend. Key highlights:</p>
+
+      <ul>
+        <li><strong>Server Setup:</strong> Simplified backend operations by structuring server files.</li>
+        <li><strong>Frontend Workflow:</strong> Established a clear hierarchy for frontend files to enhance maintainability.</li>
+      </ul>
+
+      <p>These changes significantly improve our development process, laying a solid foundation for future expansions.</p>
+    `,
+  },
+  {
+    id: '33',
+    title: 'Signup Page Implementation',
+    author: 'Samson Oloruntola',
+    date: '21st Jan. 2025',
+    topic: '🎨 UI Development',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Signup Page Implementation</h2>
+      <p>We took a significant step toward user interaction by implementing the signup page. This included:</p>
+
+      <ul>
+        <li><strong>Frontend Development:</strong> Designed the signup page UI, enhancing user experience.</li>
+        <li><strong>Backend Integration:</strong> Implemented a signup route in Flask’s <code>app.py</code> for seamless registration.</li>
+        <li><strong>CSS Adjustments:</strong> Updated <code>index.css</code> to align with the new page design.</li>
+      </ul>
+
+      <p>With the signup page complete, users now have a dedicated entry point to the platform.</p>
+    `,
+  },
+  {
+    id: '32',
+    title: 'Database Cleanup and CSS Adjustments',
+    author: 'Marjia Siddik',
+    date: '18th Jan. 2025',
+    topic: '🗄️ Backend Refinements',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Database Cleanup and CSS Adjustments</h2>
+      <p>As part of our ongoing refinement process, we focused on database and UI improvements. Key updates:</p>
+
+      <ul>
+        <li><strong>Database Maintenance:</strong> Removed outdated rows and test files to optimize performance.</li>
+        <li><strong>CSS Updates:</strong> Enhanced the visual appeal and functionality of the interface.</li>
+      </ul>
+
+      <p>These changes ensure a cleaner and more efficient system as we move forward with development.</p>
+    `,
+  },
+
+  {
+    id: '31',
+    title: 'Storing Dataset Metadata in Backend',
+    author: 'Samson Oloruntola',
+    date: '18th Jan. 2025',
+    topic: '🗄️ Metadata Management',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Storing Dataset Metadata in Backend</h2>
+      <p>We implemented functionality to store dataset metadata directly in the backend. Key highlights:</p>
+
+      <ul>
+        <li><strong>Metadata Tracking:</strong> Enhanced our ability to track datasets for seamless data management.</li>
+        <li><strong>Server Integration:</strong> Streamlined the process of storing and accessing dataset metadata.</li>
+      </ul>
+
+      <p>This development is a critical step in ensuring data consistency across the platform.</p>
+    `,
+  },
+
+  {
+    id: '30',
+    title: 'Improved Dataset Storage Path',
+    author: 'Marjia Siddik',
+    date: '18th Jan. 2025',
+    topic: '📂 Storage Optimization',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Improved Dataset Storage Path</h2>
+      <p>We revised the database storage paths to improve project structure and enhance accessibility. Key updates include:</p>
+
+      <ul>
+        <li><strong>Optimized Structure:</strong> Adjusted storage paths to align with project goals and facilitate easier access.</li>
+        <li><strong>Streamlined Workflows:</strong> Reduced complexity in accessing datasets during development.</li>
+      </ul>
+
+      <p>This optimization ensures a more efficient development process and better data management practices.</p>
+    `,
+  },
+  {
+    id: '29',
+    title: 'Access Control Database Implementation',
+    author: 'Samson Oloruntola',
+    date: '18th Jan. 2025',
+    topic: '🔑 Access Control',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Access Control Database Implementation</h2>
+      <p>We made significant progress in implementing access control mechanisms within the database. Key achievements include:</p>
+
+      <ul>
+        <li><strong>Role-Based Access Control:</strong> Established database structures for managing user roles and permissions.</li>
+        <li><strong>Security Enhancements:</strong> Laid the groundwork for secure data operations by restricting unauthorized access.</li>
+      </ul>
+
+      <p>This update strengthens the security framework of the Oblivy platform.</p>
+    `,
+  },
+  {
+    id: '28',
+    title: 'Initial ACL Backend Implementation',
+    author: 'Samson Oloruntola',
+    date: '18th Jan. 2025',
+    topic: '🔒 Security Development',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Initial ACL Backend Implementation</h2>
+      <p>We launched the first version of the Access Control List (ACL) backend. Key highlights include:</p>
+
+      <ul>
+        <li><strong>ACL Basics:</strong> Designed and implemented foundational logic for data access controls.</li>
+        <li><strong>Secure Access:</strong> Established restrictions to ensure only authorized entities can access specific resources.</li>
+      </ul>
+
+      <p>This marks a significant step in securing user data and reinforcing the platform’s reliability.</p>
+    `,
+  },
+  {
+    id: '27',
+    title: 'Basic Stash Class Unit Testing',
+    author: 'Marjia Siddik',
+    date: '13th Jan. 2025',
+    topic: '🧪 Testing Infrastructure',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Basic Stash Class Unit Testing</h2>
+      <p>We prioritized quality assurance by developing unit tests for the Stash class. Key activities included:</p>
+
+      <ul>
+        <li><strong>Unit Test Creation:</strong> Built comprehensive tests to validate Stash class methods.</li>
+        <li><strong>Error Handling:</strong> Ensured the class functions as expected under various conditions.</li>
+      </ul>
+
+      <p>These tests are vital for maintaining the integrity and reliability of the system.</p>
+    `,
+  },
+
+  {
+    id: '26',
+    title: 'Server File Reorganization',
+    author: 'Samson Oloruntola',
+    date: '13th Jan. 2025',
+    topic: '⚙️ Development Organization',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Server File Reorganization</h2>
+      <p>To streamline the project structure, we reorganized server files into dedicated directories. Highlights:</p>
+
+      <ul>
+        <li><strong>Directory Setup:</strong> Moved server files into organized directories for better clarity.</li>
+        <li><strong>Testing Enhancements:</strong> Added template unit tests to ensure robust functionality.</li>
+      </ul>
+
+      <p>This reorganization simplifies development and debugging processes.</p>
+    `,
+  },
+
+  {
+    id: '25',
+    title: 'Encryption Integration with Tree Class',
+    author: 'Samson Oloruntola',
+    date: '12th Jan. 2025',
+    topic: '🔐 Encryption Enhancements',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Encryption Integration with Tree Class</h2>
+      <p>We enhanced the Tree class by integrating encryption for secure operations. Key updates:</p>
+
+      <ul>
+        <li><strong>Read/Write Methods:</strong> Added encryption logic to secure data during read and write operations.</li>
+        <li><strong>Data Security:</strong> Ensured data confidentiality and integrity within the Tree structure.</li>
+      </ul>
+
+      <p>This integration reinforces the platform's security and prepares it for further cryptographic advancements.</p>
+    `,
+  },
+
+  {
+    id: '24',
+    title: 'Pytest Fixtures and Encryption Testing',
+    author: 'Marjia Siddik',
+    date: '12th Jan. 2025',
+    topic: '🧪 Testing Improvements',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Pytest Fixtures and Encryption Testing</h2>
+      <p>We implemented foundational tests for encryption functionality, focusing on quality assurance. Key achievements:</p>
+
+      <ul>
+        <li><strong>Pytest Fixtures:</strong> Introduced reusable fixtures to simplify testing workflows.</li>
+        <li><strong>Encryption Tests:</strong> Validated encryption methods to ensure accuracy and reliability.</li>
+      </ul>
+
+      <p>These improvements strengthen the overall testing framework and provide confidence in our cryptographic implementations.</p>
+    `,
+  },
+
+  {
+    
     id: '23',
     title: 'Implementing the Encryption Class with AES-256',
     author: 'Marjia Siddik',
