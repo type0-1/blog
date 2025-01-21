@@ -9,15 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
     {
-      blogTitle: "Merge Access Control Development Branch",
-      author: "Marjia Siddik",
-      date: "21st Jan. 2025",
-      topic: "🔑 Access Control Integration",
-      desc: "Merged the access-control-dev branch into dev, integrating access control updates.",
-      authorImage: marjiaImage,
-      blogId: 35,
-    },
-    {
       blogTitle: "Server and Frontend File Organization",
       author: "Samson Oloruntola",
       date: "21st Jan. 2025",
