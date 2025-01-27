@@ -1,4 +1,69 @@
 export const blogPosts = [
+        {
+          id: '37',
+          title: 'Enhancing Dataset Management and User Authentication',
+          author: 'Samson Oloruntola',
+          date: '27th Jan. 2025',
+          topic: '🔒 Authentication & Dataset Management',
+          authorImage: require('../images/Samson.jpeg'),
+          content: `
+            <h2>Enhancing Dataset Management and User Authentication</h2>
+            <p>Significant updates were made to user authentication and dataset management functionalities. Key highlights include:</p>
+
+            <ul>
+              <li><strong>Dataset Upload:</strong> Implemented functionality for users to upload datasets seamlessly.</li>
+              <li><strong>Signup and Login:</strong> Revamped the signup and login functionalities to utilize backend Flask API routes for better security and reliability.</li>
+              <li><strong>Access Control:</strong> Added a feature to fetch all users for managing access control permissions efficiently.</li>
+            </ul>
+
+            <p>These updates mark a critical step in enhancing the platform's usability and security.</p>
+          `,
+      },
+
+      {
+        id: '36',
+        title: 'User and Access Control Management Enhancements',
+        author: 'Marjia Siddik',
+        date: '26th Jan. 2025',
+        topic: '🔑 Access Control',
+        authorImage: require('../images/Marjia.jpeg'),
+        content: `
+          <h2>User and Access Control Management Enhancements</h2>
+          <p>A series of updates were made to improve user management and access control. Key highlights:</p>
+
+          <ul>
+            <li><strong>Access Restrictions:</strong> Restricted user management and dataset upload functionalities to authenticated users only.</li>
+            <li><strong>ACL Endpoint Fixes:</strong> Resolved issues in the ACL model endpoint for smoother access control management.</li>
+            <li><strong>Routing Updates:</strong> Added <code>acl_routes.py</code> and modified <code>app.py</code> and <code>model.py</code> to align with access control needs, followed by a refinement to remove unnecessary routes.</li>
+            <li><strong>User Management Interface:</strong> Created a "Manage Users" page with routing and functionality for administrators to oversee user access.</li>
+          </ul>
+
+          <p>These improvements enhance security and simplify user and permission management across the platform.</p>
+        `,
+    },
+
+    {
+      id: '35',
+      title: 'Refining Requirements and Project Setup',
+      author: 'Samson Oloruntola',
+      date: '25th Jan. 2025',
+      topic: '⚙️ Development Setup',
+      authorImage: require('../images/Samson.jpeg'),
+      content: `
+        <h2>Refining Requirements and Project Setup</h2>
+        <p>Focus was placed on improving the project setup and resolving system issues. Key updates:</p>
+
+        <ul>
+          <li><strong>Requirements File Updates:</strong> Updated <code>requirements.txt</code> to include the latest dependencies required for development.</li>
+          <li><strong>File Cleanup:</strong> Cleared cached files and fixed issues in <code>.gitignore</code> for better repository management.</li>
+          <li><strong>Reorganization:</strong> Reorganised models and removed redundant project startup files causing system errors.</li>
+          <li><strong>Authentication Improvements:</strong> Implemented the login page, signup, and login functionalities, reorganizing files to align with backend structures.</li>
+        </ul>
+
+        <p>These refinements ensure a smoother development workflow and resolve prior system errors.</p>
+      `,
+  },
+
   {
     id: '34',
     title: 'Server and Frontend File Organization',
@@ -8,14 +73,13 @@ export const blogPosts = [
     authorImage: require('../images/Samson.jpeg'),
     content: `
       <h2>Server and Frontend File Organization</h2>
-      <p>To streamline development workflows, we added a <code>.gitignore</code> file and organized essential files for running the server, API, and frontend. Key highlights:</p>
+      <p>To streamline development workflows, we added a <code>.gitignore</code> file and organised essential files for running the server, API, and frontend. Key highlights:</p>
 
       <ul>
         <li><strong>Server Setup:</strong> Simplified backend operations by structuring server files.</li>
         <li><strong>Frontend Workflow:</strong> Established a clear hierarchy for frontend files to enhance maintainability.</li>
       </ul>
 
-      <p>These changes significantly improve our development process, laying a solid foundation for future expansions.</p>
     `,
   },
   {
@@ -90,7 +154,7 @@ export const blogPosts = [
       <p>We revised the database storage paths to improve project structure and enhance accessibility. Key updates include:</p>
 
       <ul>
-        <li><strong>Optimized Structure:</strong> Adjusted storage paths to align with project goals and facilitate easier access.</li>
+        <li><strong>Optimised Structure:</strong> Adjusted storage paths to align with project goals and facilitate easier access.</li>
         <li><strong>Streamlined Workflows:</strong> Reduced complexity in accessing datasets during development.</li>
       </ul>
 
@@ -110,7 +174,7 @@ export const blogPosts = [
 
       <ul>
         <li><strong>Role-Based Access Control:</strong> Established database structures for managing user roles and permissions.</li>
-        <li><strong>Security Enhancements:</strong> Laid the groundwork for secure data operations by restricting unauthorized access.</li>
+        <li><strong>Security Enhancements:</strong> Laid the groundwork for secure data operations by restricting unauthorised access.</li>
       </ul>
 
       <p>This update strengthens the security framework of the Oblivy platform.</p>
@@ -129,7 +193,7 @@ export const blogPosts = [
 
       <ul>
         <li><strong>ACL Basics:</strong> Designed and implemented foundational logic for data access controls.</li>
-        <li><strong>Secure Access:</strong> Established restrictions to ensure only authorized entities can access specific resources.</li>
+        <li><strong>Secure Access:</strong> Established restrictions to ensure only authorised entities can access specific resources.</li>
       </ul>
 
       <p>This marks a significant step in securing user data and reinforcing the platform’s reliability.</p>
@@ -144,7 +208,7 @@ export const blogPosts = [
     authorImage: require('../images/Marjia.jpeg'),
     content: `
       <h2>Basic Stash Class Unit Testing</h2>
-      <p>We prioritized quality assurance by developing unit tests for the Stash class. Key activities included:</p>
+      <p>We prioritised quality assurance by developing unit tests for the Stash class. Key activities included:</p>
 
       <ul>
         <li><strong>Unit Test Creation:</strong> Built comprehensive tests to validate Stash class methods.</li>
@@ -164,10 +228,10 @@ export const blogPosts = [
     authorImage: require('../images/Samson.jpeg'),
     content: `
       <h2>Server File Reorganization</h2>
-      <p>To streamline the project structure, we reorganized server files into dedicated directories. Highlights:</p>
+      <p>To streamline the project structure, we reorganised server files into dedicated directories. Highlights:</p>
 
       <ul>
-        <li><strong>Directory Setup:</strong> Moved server files into organized directories for better clarity.</li>
+        <li><strong>Directory Setup:</strong> Moved server files into organised directories for better clarity.</li>
         <li><strong>Testing Enhancements:</strong> Added template unit tests to ensure robust functionality.</li>
       </ul>
 
@@ -325,7 +389,7 @@ export const blogPosts = [
         <li><strong>Tree Logic:</strong> Made significant advancements in the tree structure, focusing on the data structure of blocks stored inside buckets. This improvement lays the groundwork for robust data storage and retrieval.</li>
         <li><strong>Debugging and Visualization:</strong> Developed a debugging method to visualize the tree, a critical tool for testing and debugging the implementation.</li>
         <li><strong>Helper Methods:</strong> Implemented a <code>get_path</code> method to assist the <code>read_path</code> functionality, streamlining the block retrieval process.</li>
-        <li><strong>Position Map:</strong> Initialized a position map for assigning requested blocks to random leaves, a key component of the ORAM logic.</li>
+        <li><strong>Position Map:</strong> Initialised a position map for assigning requested blocks to random leaves, a key component of the ORAM logic.</li>
       </ul>
 
       <p>These developments bring us closer to a fully functional Path ORAM implementation, with a strong focus on efficiency, security, and reliability. The visualization tools and helper methods will prove invaluable in the next stages of testing and refinement.</p>
@@ -341,10 +405,10 @@ export const blogPosts = [
     authorImage: require('../images/Samson.jpeg'),
     content: `
       <h2>Organizing and Expanding Path ORAM Modules</h2>
-      <p>The development of Path ORAM took a significant leap forward as we modularized its directory structure and began implementing foundational methods. This step enhances code organization and sets the stage for more sophisticated features. Here’s what we achieved:</p>
+      <p>The development of Path ORAM took a significant leap forward as we modularised its directory structure and began implementing foundational methods. This step enhances code organization and sets the stage for more sophisticated features. Here’s what we achieved:</p>
 
       <ul>
-        <li><strong>Module Separation:</strong> Reorganized the Path ORAM structure into distinct modules:
+        <li><strong>Module Separation:</strong> Reorganised the Path ORAM structure into distinct modules:
           <ul>
             <li><code>protocol.py</code>: Acts as the main file runner, orchestrating the overall functionality.</li>
             <li><code>encryption.py</code>: Dedicated to AES-256 encryption implementation.</li>
@@ -377,7 +441,7 @@ export const blogPosts = [
       <p>We’ve taken a crucial step in our Oblivy project by initiating the development of the Path ORAM directory structure. This serves as the backbone for secure data operations within the system. Here’s an overview of what we accomplished:</p>
 
       <ul>
-        <li><strong>Directory Structure:</strong> Designed and organized the basic framework for the Path ORAM directory structure, setting a foundation for secure data access and storage.</li>
+        <li><strong>Directory Structure:</strong> Designed and organised the basic framework for the Path ORAM directory structure, setting a foundation for secure data access and storage.</li>
         <li><strong>Main Runner File:</strong> Created the main runner file, <code>path_oram.py</code>, to handle core operations and future functionalities.</li>
         <li><strong>Template Methods:</strong> Implemented placeholder methods for essential Path ORAM operations, including <code>insertion</code>, <code>retrieval</code>, <code>reshuffle</code>, and <code>path_retrieval</code>. These will guide the development of robust functionality in subsequent phases.</li>
       </ul>
@@ -447,11 +511,11 @@ export const blogPosts = [
     authorImage: require('../images/Marjia.jpeg'),
     content: `
       <h2>Finalizing the Functional Specification</h2>
-      <p>Today marks a major milestone in the Oblivy project—we finalized our functional specification draft and received the go-ahead from our supervisor! This was a critical step in solidifying our project direction and ensuring alignment with the original goals.</p>
+      <p>Today marks a major milestone in the Oblivy project—we finalised our functional specification draft and received the go-ahead from our supervisor! This was a critical step in solidifying our project direction and ensuring alignment with the original goals.</p>
       
       <ul>
         <li><strong>Supervisor Approval:</strong> After several iterations and feedback cycles, our supervisor gave the thumbs up, confirming that the functional specification meets all expectations and covers necessary details.</li>
-        <li><strong>Markdown Submission:</strong> The finalized document was formatted in markdown for easy readability and version control, then submitted to our GitLab repository for future reference and collaboration.</li>
+        <li><strong>Markdown Submission:</strong> The finalised document was formatted in markdown for easy readability and version control, then submitted to our GitLab repository for future reference and collaboration.</li>
       </ul>
       
       <p>With the functional specification now complete and approved, we’re ready to dive fully into development. This submission marks the end of one phase and the beginning of an exciting journey to bring Oblivy to life!</p>
@@ -503,7 +567,7 @@ export const blogPosts = [
         <li><strong>High-Level System Architecture Diagram:</strong> We created a visual representation of how the system’s components will interact, ensuring everyone has a clear understanding of Oblivy’s structure.</li>
         <li><strong>Data Processing Flowchart:</strong> A step-by-step diagram illustrating how data flows through the system, from upload to encryption and output.</li>
         <li><strong>UI Mockups:</strong> Designed interface layouts for key pages, including the hero page, metrics dashboard, file feedback, and dataset download pages. These mockups give us a clear direction for frontend development.</li>
-        <li><strong>Deployment Diagram:</strong> Visualized how the system will be deployed, detailing server configurations and hosting requirements.</li>
+        <li><strong>Deployment Diagram:</strong> Visualised how the system will be deployed, detailing server configurations and hosting requirements.</li>
       </ul>
       
       <p>With these diagrams and mockups, we’ve replaced lengthy text with visuals that communicate our system’s design more effectively. This shift not only helps our team stay aligned but also sets a strong foundation for the implementation phase.</p>
@@ -558,7 +622,7 @@ export const blogPosts = [
     authorImage: require('../images/Samson.jpeg'),
     content: `
       <h2>Software Attributes and Organizing Specific Requirements</h2>
-<p>Outlined core software attributes and established an organized structure for Oblivy’s requirements documentation:</p>
+<p>Outlined core software attributes and established an organised structure for Oblivy’s requirements documentation:</p>
 
 <ul>
     <li><strong>Defining Software System Attributes:</strong> Specified key attributes including reliability, availability, security, and maintainability to ensure Oblivy meets performance and operational standards throughout its lifecycle.</li> 
@@ -599,7 +663,7 @@ export const blogPosts = [
 <ul>
   <li><strong>Defining External System Interfaces:</strong> We outlined necessary connections and integrations, ensuring Oblivy’s internal components work cohesively without relying on external systems.</li> 
   <li><strong>Detailing Core System Functions:</strong> Key functions like data retrieval, visualization, and real-time metric updates were mapped out to ensure each element supports the Path ORAM simulation effectively.</li> 
-  <li><strong>Structuring Functional Requirements for Clarity:</strong> Organized each function’s specific requirements to streamline the development process, making it easier to implement and test each feature accurately.</li>
+  <li><strong>Structuring Functional Requirements for Clarity:</strong> Organised each function’s specific requirements to streamline the development process, making it easier to implement and test each feature accurately.</li>
 </ul>`
 
   },
@@ -616,7 +680,7 @@ export const blogPosts = [
 
 <ul>
   <li><strong>Outlining Product Functions:</strong> We specified Oblivy’s essential functions, focusing on the interactive Path ORAM simulation, data visualization, and performance metrics to deliver a valuable educational tool.</li> 
-  <li><strong>Understanding User Characteristics:</strong> We analyzed our intended user base—students, researchers, and privacy enthusiasts—to design an interface that balances technical depth with accessibility.</li> 
+  <li><strong>Understanding User Characteristics:</strong> We analysed our intended user base—students, researchers, and privacy enthusiasts—to design an interface that balances technical depth with accessibility.</li> 
   <li><strong>Clarifying Assumptions and Dependencies:</strong> Documented assumptions around supported web technologies and user devices to guide development, ensuring that our requirements align with expected user environments.</li> <li><strong>Apportioning Requirements for Manageability:</strong> We allocated essential features for the initial version while identifying advanced functionalities for potential future iterations, keeping development feasible within project timelines.</li>
 </ul>`
 
@@ -671,7 +735,7 @@ export const blogPosts = [
 <p>As we develop Oblivy, we are focused on building a comprehensive functional specification. This includes the creation of a block diagram, analyzing similar software and products, and detailing section 2.1 of the functional specification, which defines the product perspective.</p>
 
 <ul>
-  <li><strong>Creation of the Block Diagram:</strong> We’re designing a block diagram to visually map out Oblivy’s system architecture and the interactions between components. This diagram will provide a clear view of how different parts of the software work together, ensuring a well-organized design as we proceed.</li>
+  <li><strong>Creation of the Block Diagram:</strong> We’re designing a block diagram to visually map out Oblivy’s system architecture and the interactions between components. This diagram will provide a clear view of how different parts of the software work together, ensuring a well-organised design as we proceed.</li>
 
   <li><strong>Competitor and Product Analysis:</strong> To refine our design and align with industry standards, we’re researching similar software products. This analysis will help us identify best practices, gain insights into user expectations, and ensure Oblivy meets a high standard of usability and functionality.</li>
 
@@ -691,9 +755,9 @@ export const blogPosts = [
 <p>With the proposal behind us, we’re now fully immersed in developing the functional specification for Oblivy. This stage is where we bring structure to our ideas, diving into the details of what the software should do and how everything will fit together.</p>
 
 <ul>
-  <li><strong>Standalone Simulation:</strong> Oblivy, as a standalone simulation project brought about a major consideration, which is whether to allow users the option to input custom data for personalized visualizations or to keep it straightforward with predefined choices. This decision will impact both user experience and system complexity, so we’re carefully weighing the pros and cons.</li>
+  <li><strong>Standalone Simulation:</strong> Oblivy, as a standalone simulation project brought about a major consideration, which is whether to allow users the option to input custom data for personalised visualizations or to keep it straightforward with predefined choices. This decision will impact both user experience and system complexity, so we’re carefully weighing the pros and cons.</li>
   
-  <li><strong>System Interactions:</strong> To ensure clarity, we’re developing a block diagram to show how different parts of the system interact. Even though Oblivy operates independently, a visual overview of its architecture helps us map out each component’s role and connections, keeping the design organized as we move forward.</li>
+  <li><strong>System Interactions:</strong> To ensure clarity, we’re developing a block diagram to show how different parts of the system interact. Even though Oblivy operates independently, a visual overview of its architecture helps us map out each component’s role and connections, keeping the design organised as we move forward.</li>
   
   <li><strong>Constraints and Limitations:</strong> We’re also considering potential constraints that could shape the project. Factors like data handling limitations or technical requirements may influence user interactions and the system's overall functionality.</li>
 </ul>
