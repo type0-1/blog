@@ -16,7 +16,7 @@ export const blogPosts = [
         <li><strong>Access Logs and Auditing:</strong> Added tracking mechanisms to monitor access events, providing full visibility into dataset interactions.</li>
       </ul>
   
-      <p>This update significantly enhances security by ensuring that <i>only authorized users can modify or access datasets</i>, preventing unauthorized access while improving system transparency.</p>
+      <p>This update significantly enhanced security by ensuring that <i>only authorized users can modify or access datasets</i>, preventing unauthorized access while improving system transparency.</p>
     `,
   },  
   {
