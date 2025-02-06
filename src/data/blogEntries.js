@@ -1,4 +1,66 @@
 export const blogPosts = [
+  {
+    id: '40',
+    title: 'Implementing Role-Based Access Control for Enhanced Security',
+    author: 'Marjia Siddik',
+    date: '5th Feb. 2025',
+    topic: '🔑 Access Control & Security',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Implementing Role-Based Access Control for Enhanced Security</h2>
+      <p>To strengthen security and improve dataset management, we have integrated <i>Role-Based Access Control</i>, allowing for fine-grained permission settings across the platform.</p>
+  
+      <ul>
+        <li><strong>Granular User Permissions:</strong> Users can now be assigned <i>READ</i> or <i>MANAGE</i> access levels per dataset, ensuring controlled data governance.</li>
+        <li><strong>Secure Access Management:</strong> Implemented a robust permission verification system that restricts unauthorized users from performing sensitive actions.</li>
+        <li><strong>Access Logs and Auditing:</strong> Added tracking mechanisms to monitor access events, providing full visibility into dataset interactions.</li>
+      </ul>
+  
+      <p>This update significantly enhances security by ensuring that <i>only authorized users can modify or access datasets</i>, preventing unauthorized access while improving system transparency.</p>
+    `,
+  },  
+  {
+    id: '39',
+    title: 'Enhancing Real-Time Encryption and Performance Metrics',
+    author: 'Samson Oloruntola',
+    date: '1st Feb. 2025',
+    topic: '⚡ Encryption & Performance Optimization',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Enhancing Real-Time Encryption and Performance Metrics</h2>
+      <p>Recent updates focused on improving <i>real-time encryption monitoring</i> and optimizing <i>performance tracking</i> to ensure system efficiency.</p>
+  
+      <ul>
+        <li><strong>Real-Time Encryption Monitoring:</strong> Introduced live encryption status tracking for datasets, allowing users to see real-time security metrics.</li>
+        <li><strong>Reduced Processing Overhead:</strong> Optimized encryption and decryption processes to <i>reduce system load</i>, improving response times for dataset access.</li>
+        <li><strong>Performance Dashboard Enhancements:</strong> Upgraded the system monitoring interface, providing real-time visual feedback on <i>encryption overhead, ORAM efficiency, and latency metrics</i>.</li>
+      </ul>
+  
+      <p>These enhancements ensure that users experience <i>faster, more secure, and transparent</i> interactions with their datasets, making encryption processes more efficient while maintaining top-tier security.</p>
+    `,
+  },
+  
+      {
+        id: '38',
+        title: 'Optimizing Secure Data Access with Path ORAM',
+        author: 'Samson Oloruntola',
+        date: '29th Jan. 2025',
+        topic: '🔐 Privacy-Preserving Data Access',
+        authorImage: require('../images/Samson.jpeg'),
+        content: `
+          <h2>Optimizing Secure Data Access with Path ORAM</h2>
+          <p>We recently focused on improving <i>secure data access</i> in our platform using <i>Path Oblivious RAM (Path ORAM)</i>. This enhancement ensures that dataset access patterns remain hidden, adding an extra layer of privacy for users.</p>
+  
+          <ul>
+            <li><strong>Path ORAM Implementation:</strong> Integrated an advanced ORAM scheme to obscure data access patterns, preventing leakage of sensitive information.</li>
+            <li><strong>Optimized Stash Management:</strong> Improved the efficiency of ORAM operations by reducing excessive stash accumulation, leading to faster data retrieval.</li>
+            <li><strong>Performance Monitoring:</strong> Implemented real-time <i>metrics tracking</i> to measure <i>ORAM reshuffling latency, encryption overhead, and bucket utilization</i>.</li>
+          </ul>
+  
+          <p>These improvements significantly enhance the <i>privacy and security</i> of data access within the system, ensuring that sensitive datasets remain protected against inference attacks.</p>
+            `,
+        },
+  
         {
           id: '37',
           title: 'Enhancing Dataset Management and User Authentication',

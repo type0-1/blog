@@ -8,6 +8,33 @@ import marjiaImage from '../images/Marjia.jpeg';
 gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
+  {
+    blogTitle: "Implementing Role-Based Access Control",
+    author: "Marjia Siddik",
+    date: "5th Feb. 2025",
+    topic: "🔑 Access Control & Security",
+    desc: "Implemented granular user permissions, secure access management, and auditing for improved dataset security.",
+    authorImage: marjiaImage,
+    blogId: 40,
+  },
+  {
+    blogTitle: "Real-Time Encryption and Performance Metrics",
+    author: "Samson Oloruntola",
+    date: "1st Feb. 2025",
+    topic: "⚡ Encryption & Performance Optimization",
+    desc: "Implemented real-time encryption monitoring, reduced processing overhead, and enhanced dashboard visibility for performance metrics.",
+    authorImage: samsonImage,
+    blogId: 39,
+  },
+  {
+    blogTitle: "Optimizing Secure Data Access with Path ORAM",
+    author: "Samson Oloruntola",
+    date: "29th Jan. 2025",
+    topic: "🔐 Privacy-Preserving Data Access",
+    desc: "Enhanced secure data access by implementing Path ORAM, optimizing stash management, and tracking performance metrics.",
+    authorImage: samsonImage,
+    blogId: 38,
+  },
     {
       blogTitle: "Dataset Management and User Authentication",
       author: "Samson Oloruntola",
