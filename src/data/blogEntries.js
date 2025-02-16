@@ -17,7 +17,7 @@ export const blogPosts = [
         <li><strong>Best Practices:</strong> Provided tips on secure data management and efficient usage of the platform.</li>
       </ul>
 
-      <p>The completion of this guide ensures that both new and experienced users can effectively utilize the system with minimal confusion, improving overall user experience and efficiency.</p>
+      <p>The completion of this guide ensures that both new and experienced users can effectively utilise the system with minimal confusion, improving overall user experience and efficiency.</p>
     `
       ,
 },
