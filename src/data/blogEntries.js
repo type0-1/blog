@@ -1,5 +1,226 @@
 export const blogPosts = [
   {
+    id: '50',
+    title: 'Completing the User Guide',
+    author: 'Marjia Siddik',
+    date: '20th Feb. 2025',
+    topic: '📖 User Documentation',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Completing the User Guide</h2>
+      <p>As the final step in our documentation efforts, we have completed the <i>User Guide</i> to help users easily navigate and interact with the platform.</p>
+
+      <ul>
+        <li><strong>Step-by-Step Instructions:</strong> Detailed guides on signing up, logging in, managing datasets, and performing operations.</li>
+        <li><strong>Visual Walkthroughs:</strong> Included annotated screenshots and examples to make the guide more intuitive.</li>
+        <li><strong>Troubleshooting Section:</strong> Added solutions for common issues, such as login failures and permission errors.</li>
+        <li><strong>Best Practices:</strong> Provided tips on secure data management and efficient usage of the platform.</li>
+      </ul>
+
+      <p>The completion of this guide ensures that both new and experienced users can effectively utilize the system with minimal confusion, improving overall user experience and efficiency.</p>
+    `
+      ,
+},
+  {
+    id: '49',
+    title: 'Finalizing the Technical Specification Document',
+    author: 'Marjia Siddik',
+    date: '20nd Feb. 2025',
+    topic: '📄 Project Documentation',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Finalizing the Technical Specification Document</h2>
+      <p>As we near the completion of our project, we have finalized the <i>Technical Specification Document</i>, ensuring it accurately reflects the system architecture, functionality, and implementation details.</p>
+
+      <ul>
+        <li><strong>System Architecture:</strong> Detailed the overall structure, including backend, frontend, and database design.</li>
+        <li><strong>API Documentation:</strong> Outlined all API endpoints, request parameters, and expected responses.</li>
+        <li><strong>Security Measures:</strong> Documented authentication, encryption, and access control mechanisms used for data protection.</li>
+        <li><strong>Testing Strategies:</strong> Included an overview of unit, integration, and security testing approaches.</li>
+        <li><strong>Deployment & Scalability:</strong> Provided insights into hosting, database management, and future scalability considerations.</li>
+      </ul>
+
+      <p>Completing this document ensures that future developers and contributors can easily understand the system’s design, making it a valuable resource for maintenance and expansion.</p>
+    `
+      ,
+},
+
+  {
+    id: '48',
+    title: 'Showcasing Our Project: Video Walkthrough',
+    author: 'Samson Oloruntola',
+    date: '19th Feb. 2025',
+    topic: '🎥 Project Walkthrough',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Showcasing Our Project: Video Walkthrough & Demonstration</h2>
+      <p>To provide a clear and structured overview of our project, we recorded a comprehensive <i>video walkthrough</i>, highlighting key functionalities, UI flow, and backend operations.</p>
+
+      <ul>
+        <li><strong>Project Overview:</strong> Explained the purpose of the platform, its core features, and the technologies used.</li>
+        <li><strong>Live Demonstration:</strong> Walked through key functionalities such as authentication, dataset management, and access control.</li>
+        <li><strong>UI/UX Experience:</strong> Showcased navigation flow, responsiveness, and how different components interact seamlessly.</li>
+        <li><strong>Backend Functionality:</strong> Provided insights into how data encryption, ORAM operations, and secure user management work.</li>
+        <li><strong>Testing & Validation:</strong> Highlighted the various testing efforts (unit, integration, and security testing) and how they ensure reliability.</li>
+      </ul>
+
+      <p>The video serves as a complete guide for anyone exploring our project, giving a detailed breakdown of how the system functions and the improvements made during development.</p>
+    `
+      ,
+},
+  {
+    id: '47',
+    title: 'Seamless Navigation: Frontend Integration Testing for Navbar, Home, Signup & Login',
+    author: 'Marjia Siddik',
+    date: '18th Feb. 2025',
+    topic: '🖥️ Frontend Integration Testing',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Seamless Navigation: Frontend Integration Testing for Navbar, Home, Signup & Login</h2>
+      <p>To ensure smooth transitions and functionality between key sections of the platform, we conducted integration testing across the <i>Navbar, Home, Signup, and Login</i> pages.</p>
+
+      <ul>
+        <li><strong>Navigation Flow Validation:</strong> Verified that users can seamlessly transition between Home, Signup, and Login pages using the Navbar.</li>
+        <li><strong>Signup & Authentication Checks:</strong> Ensured users can register successfully, receive feedback on errors, and log in without issues.</li>
+        <li><strong>Session Persistence:</strong> Tested whether logged-in users remain authenticated when navigating between pages.</li>
+        <li><strong>UI Consistency:</strong> Confirmed that styles, buttons, and forms render correctly across different screen sizes and devices.</li>
+        <li><strong>Error Handling & Redirects:</strong> Simulated failed logins and signups to validate proper error messages and redirections.</li>
+      </ul>
+
+      <p>With these tests, we strengthened <i>user experience and authentication flows</i>, ensuring that new and returning users can navigate effortlessly without interruptions.</p>
+    `
+      ,
+},
+  {
+    id: '46',
+    title: 'Ensuring System Reliability with Performance & Stress Testing',
+    author: 'Samson Oloruntola',
+    date: '17th Feb. 2025',
+    topic: '🚀 Performance & Stress Testing',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Ensuring System Reliability with Performance & Stress Testing</h2>
+      <p>To evaluate the stability and efficiency of our platform, we conducted rigorous performance and stress testing.</p>
+
+      <ul>
+        <li><strong>Load Testing:</strong> Simulated high-traffic scenarios to measure system response time and scalability under normal and peak usage conditions.</li>
+        <li><strong>Stress Testing:</strong> Pushed the system beyond its expected capacity to identify breaking points and ensure graceful degradation.</li>
+        <li><strong>Database Query Optimization:</strong> Analyzed query execution times and optimized database calls to reduce latency and enhance response speeds.</li>
+        <li><strong>API Response Benchmarking:</strong> Measured API endpoint performance, ensuring fast data retrieval and minimal processing delays.</li>
+        <li><strong>File Handling Efficiency:</strong> Tested dataset uploads and retrievals with large files to verify encryption speed and storage performance.</li>
+      </ul>
+
+      <p>These tests provided valuable insights into <i>system limitations and areas for improvement</i>, ensuring our platform remains efficient and reliable under heavy usage.</p>
+    `
+      ,
+},
+  {
+    id: '45',
+    title: 'Enhancing System Security with Testing',
+    author: 'Samson Oloruntola',
+    date: '16th Feb. 2025',
+    topic: '🔒 Security Testing',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Enhancing System Security with Testing</h2>
+      <p>To fortify our system against potential threats, we conducted thorough security testing on both authentication and data access layers.</p>
+
+      <ul>
+        <li><strong>Brute Force Prevention:</strong> Tested repeated login attempts to ensure users are protected from credential stuffing attacks.</li>
+        <li><strong>Session Security:</strong> Verified that session tokens are securely managed, preventing hijacking and fixation attacks.</li>
+        <li><strong>Unauthorized Access Attempts:</strong> Ensured that users cannot access datasets, metrics, or administrative functions without proper permissions.</li>
+        <li><strong>Secure File Handling:</strong> Tested dataset upload and retrieval mechanisms to prevent unauthorized access and ensure encryption integrity.</li>
+      </ul>
+
+      <p>By implementing these security tests, we have strengthened <i>the overall resilience of our platform</i>, ensuring user data remains protected against vulnerabilities.</p>
+    `
+      ,
+},
+  {
+    id: '44',
+    title: 'Ensuring Frontend Stability with Unit Tests',
+    author: 'Marjia Siddik',
+    date: '13th Feb. 2025',
+    topic: '🖥️ Frontend Testing',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Ensuring Frontend Stability with Unit Tests</h2>
+      <p>To enhance the reliability of our frontend, we implemented unit tests to validate core UI components and user interactions.</p>
+
+      <ul>
+        <li><strong>Form Validations:</strong> Tested login, signup, and dataset input forms to ensure proper validation and error handling.</li>
+        <li><strong>Navigation and Routing:</strong> Verified that users can navigate smoothly between pages without broken links or unintended behavior.</li>
+        <li><strong>Component Rendering:</strong> Checked that key UI components, such as buttons, modals, and tables, render correctly across different states.</li>
+        <li><strong>State Management:</strong> Ensured that user authentication state, dataset listings, and permissions update correctly in response to actions.</li>
+      </ul>
+
+      <p>By covering these areas, we have improved the <i>frontend’s stability and user experience</i>, reducing the likelihood of UI-related issues.</p>
+    `
+      ,
+},
+  {
+    id: '43',
+    title: 'Testing Backend Functionality with Unit Tests',
+    author: 'Marjia Siddik',
+    date: '11th Feb. 2025',
+    topic: '🧪 Backend Testing',
+    authorImage: require('../images/Marjia.jpeg'),
+    content: `
+      <h2>Testing Backend Functionality with Unit Tests</h2>
+      <p>To ensure the robustness of our backend, we have implemented unit tests covering key functionalities, improving code reliability and maintainability.</p>
+
+      <ul>
+        <li><strong>Authentication Tests:</strong> Verified user registration, login, and logout processes to ensure they function correctly under various conditions.</li>
+        <li><strong>Dataset Operations:</strong> Tested dataset uploads, retrieval, and deletion to confirm smooth file handling and database integrity.</li>
+        <li><strong>Access Control List (ACL) Management:</strong> Ensured proper assignment and verification of user permissions for managing datasets.</li>
+        <li><strong>Metrics Handling:</strong> Checked correct retrieval and processing of dataset usage metrics for analytics and monitoring.</li>
+      </ul>
+
+      <p>These unit tests help us <i>identify potential issues early</i> and maintain a stable backend, reducing the risk of unexpected failures.</p>
+    `
+      ,
+},
+  {
+    id: '42',
+    title: 'Replacing Default Popups with Custom UI Alerts',
+    author: 'Samson Oloruntola',
+    date: '9th Feb. 2025',
+    topic: '🎨 UI/UX Improvements',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Replacing Default JavaScript Popups with Custom UI Alerts</h2>
+      <p>To enhance the user experience and maintain a consistent UI design, we replaced the default JavaScript popups with custom modal alerts for dataset actions.</p>
+
+      <ul>
+        <li><strong>Custom Popups for Dataset Actions:</strong> Instead of browser alert popups when adding or deleting datasets, we introduced in-app modals that provide a more seamless and visually appealing experience.</li>
+        <li><strong>Better User Feedback:</strong> The new popups include animations, styling, and clearer messaging to ensure users understand what actions are being performed.</li>
+        <li><strong>Improved Confirmation Flow:</strong> Deleting a dataset now presents a well-designed confirmation modal, preventing accidental deletions and enhancing accessibility.</li>
+      </ul>
+
+      <p>This update ensures that all interactions within the application feel <i>smooth, modern, and integrated</i>, eliminating jarring browser popups that disrupt the workflow.</p>
+    `
+},
+  {
+    id: '41',
+    title: 'Streamlining User & Dataset Management for Better Usability',
+    author: 'Samson Oloruntola',
+    date: '7th Feb. 2025',
+    topic: '🛠️ UI/UX Improvements',
+    authorImage: require('../images/Samson.jpeg'),
+    content: `
+      <h2>Streamlining User & Dataset Management for Better Usability</h2>
+      <p>As part of our ongoing UI/UX improvements, we have refined how user and dataset management is accessed, making the system more intuitive and efficient.</p>
+  
+      <ul>
+        <li><strong>Moved "Manage Users" to the Navbar:</strong> Previously, user management was only accessible after uploading a dataset. We have now added a dedicated "Manage Users" option in the navigation bar, allowing administrators to handle user permissions at any time.</li>
+        <li><strong>Removed Redundant "Manage Dataset" Button:</strong> After a user uploaded a dataset, they were presented with a "Manage Dataset" button. Since users can already manage datasets from the dataset list, this extra step was unnecessary and has been removed.</li>
+      </ul>
+  
+      <p>These changes improve the <i>flow of dataset and user management</i>, ensuring that necessary actions are accessible in logical locations without redundant UI elements.</p>
+    `
+      ,
+  },
+  {
     id: '40',
     title: 'Implementing Role-Based Access Control for Enhanced Security',
     author: 'Marjia Siddik',

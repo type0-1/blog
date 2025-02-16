@@ -9,6 +9,102 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
+    blogTitle: "Completing the User Guide",
+    author: "Marjia Siddik",
+    date: "20th Feb. 2025",
+    topic: "📖 User Documentation",
+    desc: "Finalized the user guide with step-by-step instructions, visual walkthroughs, troubleshooting solutions, and best practices.",
+    authorImage: marjiaImage,
+    blogId: 50,
+},
+
+  {
+    blogTitle: "Finalizing the Technical Specification",
+    author: "Marjia Siddik",
+    date: "20nd Feb. 2025",
+    topic: "📄 Project Documentation",
+    desc: "Completed the technical specification document covering system architecture, APIs, security measures, testing, and scalability.",
+    authorImage: marjiaImage,
+    blogId: 49,
+},
+
+  {
+    blogTitle: "Showcasing Our Project: Video Walkthrough",
+    author: "Samson Oloruntola",
+    date: "19th Feb. 2025",
+    topic: "🎥 Project Walkthrough",
+    desc: "Recorded a detailed video walkthrough covering project features, UI flow, backend functionality, and testing efforts.",
+    authorImage: samsonImage,
+    blogId: 48,
+},
+
+  {
+    blogTitle: "Frontend Integration Testing",
+    author: "Marjia Siddik",
+    date: "18th Feb. 2025",
+    topic: "🖥️ Frontend Integration Testing",
+    desc: "Tested navigation flow, authentication, session persistence, UI consistency, and error handling across Navbar, Home, Signup, and Login pages.",
+    authorImage: marjiaImage,
+    blogId: 47,
+},
+
+  {
+    blogTitle: "Performance & Stress Testing",
+    author: "Samson Oloruntola",
+    date: "17th Feb. 2025",
+    topic: "🚀 Performance & Stress Testing",
+    desc: "Conducted load and stress testing, optimized database queries, benchmarked API responses, and improved file handling efficiency for better system performance.",
+    authorImage: samsonImage,
+    blogId: 46,
+},
+  {
+    blogTitle: "Enhancing System Security with Testing",
+    author: "Samson Oloruntola",
+    date: "16th Feb. 2025",
+    topic: "🔒 Security Testing",
+    desc: "Conducted brute force prevention, session security validation, and unauthorized access checks to reinforce platform security.",
+    authorImage: samsonImage,
+    blogId: 45,
+},
+
+  {
+    blogTitle: "Ensuring Frontend Stability with Unit Tests",
+    author: "Marjia Siddik",
+    date: "13th Feb. 2025",
+    topic: "🖥️ Frontend Testing",
+    desc: "Implemented unit tests for form validation, navigation, component rendering, and state management to ensure a seamless user experience.",
+    authorImage: marjiaImage,
+    blogId: 44,
+},
+
+  {
+    blogTitle: "Testing Backend Functionality with Unit Tests",
+    author: "Marjia Siddik",
+    date: "11th Feb. 2025",
+    topic: "🧪 Backend Testing",
+    desc: "Implemented unit tests for authentication, dataset operations, ACL management, and metrics handling to improve backend reliability.",
+    authorImage: marjiaImage,
+    blogId: 43,
+},
+  {
+    blogTitle: "Replacing Default Popups with Custom UI Alerts",
+    author: "Samson Oloruntola",
+    date: "9th Feb. 2025",
+    topic: "🎨 UI/UX Improvements",
+    desc: "Replaced browser popups with custom modals for dataset actions, improving user experience and confirmation flow.",
+    authorImage: samsonImage,
+    blogId: 42,
+},
+  {
+    blogTitle: "Streamlining User & Dataset Management",
+    author: "Samson Oloruntola",
+    date: "7th Feb. 2025",
+    topic: "🛠️ UI/UX Improvements",
+    desc: "Moved 'Manage Users' to the navbar for easier access and removed redundant 'Manage Dataset' button to improve usability.",
+    authorImage: samsonImage,
+    blogId: 41,
+},
+  {
     blogTitle: "Implementing Role-Based Access Control",
     author: "Marjia Siddik",
     date: "5th Feb. 2025",
