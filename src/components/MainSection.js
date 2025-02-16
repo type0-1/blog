@@ -19,9 +19,9 @@ const cardData = [
 },
 
   {
-    blogTitle: "Finalizing the Technical Specification",
+    blogTitle: "Finalising the Technical Specification",
     author: "Marjia Siddik",
-    date: "20nd Feb. 2025",
+    date: "20th Feb. 2025",
     topic: "📄 Project Documentation",
     desc: "Completed the technical specification document covering system architecture, APIs, security measures, testing, and scalability.",
     authorImage: marjiaImage,
